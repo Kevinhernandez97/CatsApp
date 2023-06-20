@@ -38,9 +38,9 @@ struct CatCardView: View {
                 Text("Intelligence: \(catBreed.intelligence)")
             }
         }
-        .onAppear {
-            catAPI.fetchCatImage(imageID: catBreed.referenceImageId)
-        }
+        // .onAppear {
+        //     catAPI.fetchCatImage(imageID: catBreed.referenceImageId)
+        // }
         .padding()
         .background(Color(.systemGray6))
         .cornerRadius(10)
