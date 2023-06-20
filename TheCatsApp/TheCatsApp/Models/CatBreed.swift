@@ -12,5 +12,4 @@ struct CatBreed: Identifiable, Codable {
     let name: String
     let origin: String
     let intelligence: Int
-    let referenceImageId: String
 }
